@@ -1,5 +1,11 @@
-class Tile extends React.Component {
-  render() {
-    return <button className="tile">{/* TODO */}</button>;
-  }
+import React from "react";
+
+function Tile(props) {
+  return (
+    <button className="tile" onClick={() => props.onClick()}>
+      {props.value}
+    </button>
+  );
 }
+
+export default Tile;

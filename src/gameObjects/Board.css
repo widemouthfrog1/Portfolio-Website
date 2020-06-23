@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: black;
+  height: 170px;
+  width: 510px;
+}
+
+.status {
+  display: flex;
+  background-color: #2342aa;
+  color: black;
+  height: 50px;
+  width: auto;
+}

@@ -75,10 +75,12 @@ ul {
 .game {
   display: flex;
   flex-direction: row;
+  margin: auto;
 }
 
 .game-info {
-  margin-left: 20px;
+  display: flex;
+  margin-left: 0px;
 }
 
 @keyframes App-logo-spin {

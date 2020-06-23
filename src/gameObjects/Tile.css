@@ -1,0 +1,14 @@
+.tile {
+  display: flex;
+  border: none;
+  background-color: #1b358c;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.tile:focus {
+  outline: none;
+  color: red;
+}

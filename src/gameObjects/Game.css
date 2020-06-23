@@ -1,3 +1,24 @@
 .game {
+  display: flex;
   background-color: #1b358c;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.game-board {
+  display: flex;
+  width: 510px;
+  height: 510px;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.game-info {
+  width: 200px;
+  background-color: royalblue;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0px;
 }

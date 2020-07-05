@@ -8,8 +8,16 @@ div {
   flex-direction: row;
   justify-content: space-evenly;
   background-color: black;
-  height: 170px;
-  width: 510px;
+  height: 168px;
+  width: 600px;
+}
+
+.board-rows {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  justify-content: space-evenly;
+  background-color: black;
 }
 
 .status {

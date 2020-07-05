@@ -14,7 +14,7 @@ class Board extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="board-rows">
         <div className="board-row">
           {this.renderTile(0, 2)}
           {this.renderTile(1, 2)}

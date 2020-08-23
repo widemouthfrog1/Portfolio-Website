@@ -1,14 +1,25 @@
 import React from "react";
 import "./App.css";
-import Game from "./gameObjects/Game";
+import Nav from "./Nav";
+import TicTacToe from "./pages/TicTacToe";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import About from "./pages/About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Game />
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <Nav />
+        </header>
+        <div className="switch">
+          <Switch>
+            <Route path="/Portfolio-Website" exact component={About} />
+            <Route path="/Portfolio-Website/tictactoe" component={TicTacToe} />
+          </Switch>
+        </div>
+      </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,14 @@
+.link {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: calc(20px + 2vmin);
+  padding-left: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-evenly;
+}

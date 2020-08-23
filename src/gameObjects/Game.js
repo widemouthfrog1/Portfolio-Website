@@ -31,7 +31,7 @@ class Game extends React.Component {
           </li>
         );
       } else {
-        return;
+        return null;
       }
     });
 

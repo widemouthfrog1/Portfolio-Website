@@ -1,5 +1,5 @@
 import React from "react";
-import Game from "../pageObjects/tictactoe/Game";
+import Game from "../gameObjects/Game";
 
 const TicTacToe = () => {
   return <Game />;

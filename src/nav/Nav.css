@@ -1,0 +1,39 @@
+.navigation-wrapper {
+  display: flex;
+  height: 10%;
+  width: auto;
+  background-color: blue;
+}
+
+.navigation {
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: space-around;
+  flex: 1;
+  background-color: blue;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex: 1; 
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  background-color: green;
+  border: 1px solid black;
+}
+
+.link-highlight {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex: 1; 
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  background-color: lightgreen;
+  border: 1px solid black;
+}

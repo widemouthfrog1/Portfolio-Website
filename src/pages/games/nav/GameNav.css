@@ -1,0 +1,39 @@
+.game-navigation-wrapper {
+  display: flex;
+  flex: 1;
+  width: 90%;
+  background-color: blue;
+}
+
+.game-navigation {
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: space-around;
+  flex: 1;
+  background-color: blue;
+}
+
+.game-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex: 1; 
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.game-link-highlight {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex: 1; 
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  background-color: skyblue;
+  border: 1px solid black;
+}

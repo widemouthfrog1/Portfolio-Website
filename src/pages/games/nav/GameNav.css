@@ -1,8 +1,8 @@
 .game-navigation-wrapper {
   display: flex;
+  margin-top: -1px;
   flex: 1;
   width: 90%;
-  background-color: blue;
 }
 
 .game-navigation {
@@ -11,7 +11,6 @@
   width: auto;
   justify-content: space-around;
   flex: 1;
-  background-color: blue;
 }
 
 .game-link {
@@ -22,7 +21,7 @@
   justify-content: center;
   align-items: center;
   font-size: 200%;
-  background-color: blue;
+  background-color: rgb(48, 85, 163);
   border: 1px solid black;
 }
 
@@ -34,6 +33,6 @@
   justify-content: center;
   align-items: center;
   font-size: 200%;
-  background-color: skyblue;
+  background-color: #fda622;
   border: 1px solid black;
 }

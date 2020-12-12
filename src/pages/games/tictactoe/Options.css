@@ -1,0 +1,9 @@
+.new-game {
+  position: absolute;
+  width: 25.6vh;
+  height: 7.8vh;
+  border-width: 1vh;
+  border: solid;
+  border-color:  black;
+  background-color: rgb(157, 175, 211);
+}

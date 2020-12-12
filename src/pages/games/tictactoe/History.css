@@ -1,0 +1,33 @@
+.history {
+  position: absolute;
+  margin-top: 20.2vh;
+  margin-left: 90vh;
+  width: 25vh;
+  height: 57.4vh;
+  background-color: grey;
+  border-width: 1vh;
+  border: solid;
+  border-color:  black;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+
+.history-button {
+  width: 12.5vh;
+  height: 11.5vh;
+  border-radius: 0;
+  background-color: rgb(157, 175, 211);
+  border-color: black;
+  border: none;
+}
+
+.history-button :hover {
+  background-color: blue;
+}
+
+.history-button-highlight {
+  background-color: #fda622;
+}
+

@@ -1,0 +1,18 @@
+.tile {
+  display: flex;
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  font-size: 20vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  border-width: 1vh;
+  border: solid;
+  border-color:  black;
+  background-color: grey;
+}
+
+:focus {
+  outline: none;
+}

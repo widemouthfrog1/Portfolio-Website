@@ -22,7 +22,7 @@
   justify-content: center;
   align-items: center;
   font-size: 200%;
-  background-color: green;
+  background-color: rgb(38, 66, 128);
   border: 1px solid black;
 }
 
@@ -34,6 +34,6 @@
   justify-content: center;
   align-items: center;
   font-size: 200%;
-  background-color: lightgreen;
+  background-color: rgb(241, 143, 31);
   border: 1px solid black;
 }
